@@ -33,6 +33,8 @@ namespace Firebase.Auth
             this.unlinkAccount = new SetAccountUnlink(config);
             this.setAccountInfo = new SetAccountInfo(config);
         }
+        
+        internal User() {}
 
         /// <summary>
         /// Firebase user ID.
